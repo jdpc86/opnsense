@@ -1,0 +1,10 @@
+rgephy0: <RTL8169S/8110S/8211 1000BASE-T media interface> PHY 3 on miibus0
+rgephy0:  none, 10baseT, 10baseT-FDX, 10baseT-FDX-flow, 100baseTX, 100baseTX-FDX, 100baseTX-FDX-flow, 1000baseT-FDX, 1000baseT-FDX-master, 1000baseT-FDX-flow, 1000baseT-FDX-flow-master, auto, auto-flow
+ue0: <USB Ethernet> on axge0
+ue0: Ethernet address: a0:ce:c8:1f:7a:f5
+axge0: at uhub2, port 1, addr 5 (disconnected)
+rgephy0: detached
+miibus0: detached
+axge0: detached
+pflog0: promiscuous mode disabled
+pflog0: promiscuous mode enabled

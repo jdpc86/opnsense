@@ -1,0 +1,432 @@
+14:32:48.886325 IP OPNsense.localdomain.58588 > stackoverflow.com.https: Flags [P.], seq 3014488986:3014489023, ack 3524088343, win 501, options [nop,nop,TS val 91940167 ecr 2659446159], length 37
+14:32:48.906857 IP stackoverflow.com.https > OPNsense.localdomain.58588: Flags [P.], seq 1:36, ack 37, win 62, options [nop,nop,TS val 2659484287 ecr 91940167], length 35
+14:32:48.907128 IP OPNsense.localdomain.58588 > stackoverflow.com.https: Flags [.], ack 36, win 501, options [nop,nop,TS val 91940204 ecr 2659484287], length 0
+14:32:48.907821 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 1525206189:1525206322, ack 189914209, win 1346, options [nop,nop,TS val 4109617727 ecr 1395595241], length 133
+14:32:48.907823 IP stackoverflow.com.https > OPNsense.localdomain.58588: Flags [P.], seq 36:67, ack 37, win 62, options [nop,nop,TS val 2659484287 ecr 91940167], length 31
+14:32:48.907928 IP OPNsense.localdomain.58588 > stackoverflow.com.https: Flags [.], ack 67, win 501, options [nop,nop,TS val 91940205 ecr 2659484287], length 0
+14:32:48.907958 IP OPNsense.localdomain.58588 > stackoverflow.com.https: Flags [P.], seq 37:68, ack 67, win 501, options [nop,nop,TS val 91940205 ecr 2659484287], length 31
+14:32:48.907958 IP OPNsense.localdomain.58588 > stackoverflow.com.https: Flags [F.], seq 68, ack 67, win 501, options [nop,nop,TS val 91940205 ecr 2659484287], length 0
+14:32:48.907960 IP stackoverflow.com.https > OPNsense.localdomain.58588: Flags [F.], seq 67, ack 37, win 62, options [nop,nop,TS val 2659484287 ecr 91940167], length 0
+14:32:48.908080 IP OPNsense.localdomain.58588 > stackoverflow.com.https: Flags [.], ack 68, win 501, options [nop,nop,TS val 91940205 ecr 2659484287], length 0
+14:32:48.926145 IP stackoverflow.com.https > OPNsense.localdomain.58588: Flags [R], seq 3524088409, win 0, length 0
+14:32:48.929031 IP stackoverflow.com.https > OPNsense.localdomain.58588: Flags [R], seq 3524088409, win 0, length 0
+14:32:48.932271 IP stackoverflow.com.https > OPNsense.localdomain.58588: Flags [R], seq 3524088410, win 0, length 0
+14:32:48.942885 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], ack 133, win 74, options [nop,nop,TS val 1395604659 ecr 4109617727], length 0
+14:32:48.965706 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 1:429, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 428
+14:32:48.965707 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 429:1877, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1448
+14:32:48.965709 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 1877:1938, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 61
+14:32:48.965711 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 1938:3386, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1448
+14:32:48.965712 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 3386:3399, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 13
+14:32:48.965778 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 3399:4847, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1448
+14:32:48.965848 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 4847:6295, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1448
+14:32:48.965919 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 6295:7743, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1448
+14:32:48.965946 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 429, win 1369, options [nop,nop,TS val 4109617830 ecr 1395604669], length 0
+14:32:48.965989 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 1938, win 1392, options [nop,nop,TS val 4109617830 ecr 1395604669], length 0
+14:32:48.965990 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 7743:9191, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1448
+14:32:48.966059 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 3399, win 1415, options [nop,nop,TS val 4109617830 ecr 1395604669], length 0
+14:32:48.966061 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 9191:10620, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1429
+14:32:48.966130 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 10620:12068, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 1448
+14:32:48.966132 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 12068:12087, ack 133, win 74, options [nop,nop,TS val 1395604669 ecr 4109617727], length 19
+14:32:48.966165 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 6295, win 1460, options [nop,nop,TS val 4109617830 ecr 1395604669], length 0
+14:32:48.966317 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 9191, win 1505, options [nop,nop,TS val 4109617831 ecr 1395604669], length 0
+14:32:48.966476 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 10620, win 1528, options [nop,nop,TS val 4109617831 ecr 1395604669], length 0
+14:32:48.966476 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 12087, win 1551, options [nop,nop,TS val 4109617831 ecr 1395604669], length 0
+14:32:48.975576 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 12087:13535, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.975578 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 13535:13554, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 19
+14:32:48.975587 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 13554:15002, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.975588 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 15002:15021, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 19
+14:32:48.975869 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 13554, win 1574, options [nop,nop,TS val 4109617848 ecr 1395604674], length 0
+14:32:48.976000 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 15021, win 1597, options [nop,nop,TS val 4109617848 ecr 1395604674], length 0
+14:32:48.976435 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 15021:16469, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.976437 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 16469:17917, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.976438 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 17917:18451, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 534
+14:32:48.976495 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 18451:19899, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.976496 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 19899:19966, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 67
+14:32:48.976677 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 16469, win 1619, options [nop,nop,TS val 4109617849 ecr 1395604674], length 0
+14:32:48.976754 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 19966:21414, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.976756 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 21414:22862, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.976825 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 22862:24285, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1423
+14:32:48.976832 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 18451, win 1650, options [nop,nop,TS val 4109617849 ecr 1395604674], length 0
+14:32:48.976894 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 19966, win 1674, options [nop,nop,TS val 4109617849 ecr 1395604674], length 0
+14:32:48.976973 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 21414, win 1697, options [nop,nop,TS val 4109617850 ecr 1395604674], length 0
+14:32:48.977036 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 24285:25733, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.977038 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 25733:27181, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.977106 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 27181:28629, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.977118 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 24285, win 1742, options [nop,nop,TS val 4109617850 ecr 1395604674], length 0
+14:32:48.977261 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 25733, win 1764, options [nop,nop,TS val 4109617850 ecr 1395604674], length 0
+14:32:48.977449 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 28629:30077, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.977452 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 30077:31525, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.977456 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 28629, win 1809, options [nop,nop,TS val 4109617850 ecr 1395604674], length 0
+14:32:48.977495 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 31525:32973, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.977705 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 31525, win 1855, options [nop,nop,TS val 4109617851 ecr 1395604674], length 0
+14:32:48.977861 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 32973, win 1877, options [nop,nop,TS val 4109617851 ecr 1395604674], length 0
+14:32:48.977939 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 32973:34421, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.977941 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 34421:35869, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.978009 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 35869:37317, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.978184 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 34421, win 1900, options [nop,nop,TS val 4109617852 ecr 1395604674], length 0
+14:32:48.978381 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 37317:38765, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1448
+14:32:48.978391 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 38765:39983, ack 133, win 74, options [nop,nop,TS val 1395604674 ecr 4109617831], length 1218
+14:32:48.978393 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 37317, win 1945, options [nop,nop,TS val 4109617852 ecr 1395604674], length 0
+14:32:48.978675 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 38765, win 1968, options [nop,nop,TS val 4109617853 ecr 1395604674], length 0
+14:32:48.978808 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 39983, win 1990, options [nop,nop,TS val 4109617853 ecr 1395604674], length 0
+14:32:48.992012 IP OPNsense.localdomain.44870 > dfw06s38-in-f10.1e100.net.https: Flags [P.], seq 1572760070:1572760161, ack 4239956157, win 501, options [nop,nop,TS val 741289845 ecr 3764304579], length 91
+14:32:48.992351 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 133:224, ack 39983, win 1990, options [nop,nop,TS val 4109617877 ecr 1395604674], length 91
+14:32:48.998497 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], ack 224, win 74, options [nop,nop,TS val 1395604684 ecr 4109617877], length 0
+14:32:48.998781 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 39983:40112, ack 224, win 74, options [nop,nop,TS val 1395604684 ecr 4109617877], length 129
+14:32:49.001978 IP dfw06s38-in-f10.1e100.net.https > OPNsense.localdomain.44870: Flags [P.], seq 1:84, ack 91, win 251, options [nop,nop,TS val 3764343458 ecr 741289845], length 83
+14:32:49.002219 IP OPNsense.localdomain.44870 > dfw06s38-in-f10.1e100.net.https: Flags [.], ack 84, win 501, options [nop,nop,TS val 741289863 ecr 3764343458], length 0
+14:32:49.002335 IP OPNsense.localdomain.44870 > dfw06s38-in-f10.1e100.net.https: Flags [P.], seq 91:130, ack 84, win 501, options [nop,nop,TS val 741289864 ecr 3764343458], length 39
+14:32:49.013198 IP dfw06s38-in-f10.1e100.net.https > OPNsense.localdomain.44870: Flags [.], ack 130, win 251, options [nop,nop,TS val 3764343478 ecr 741289864], length 0
+14:32:49.023637 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 40112, win 2013, options [nop,nop,TS val 4109617932 ecr 1395604684], length 0
+14:32:49.036633 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 224:331, ack 40112, win 2013, options [nop,nop,TS val 4109617956 ecr 1395604684], length 107
+14:32:49.036756 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 331:435, ack 40112, win 2013, options [nop,nop,TS val 4109617956 ecr 1395604684], length 104
+14:32:49.037207 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 435:550, ack 40112, win 2013, options [nop,nop,TS val 4109617957 ecr 1395604684], length 115
+14:32:49.037423 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 550:679, ack 40112, win 2013, options [nop,nop,TS val 4109617957 ecr 1395604684], length 129
+14:32:49.037573 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 679:782, ack 40112, win 2013, options [nop,nop,TS val 4109617957 ecr 1395604684], length 103
+14:32:49.037684 IP OPNsense.localdomain.53169 > 192.0.73.2.https: Flags [P.], seq 1612740017:1612740151, ack 2403976945, win 501, length 134
+14:32:49.037826 IP OPNsense.localdomain.53169 > 192.0.73.2.https: Flags [P.], seq 134:245, ack 1, win 501, length 111
+14:32:49.037909 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 2564530168:2564530302, ack 1934853497, win 501, length 134
+14:32:49.041439 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 40112:40214, ack 331, win 74, options [nop,nop,TS val 1395604703 ecr 4109617956], length 102
+14:32:49.041662 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 40214, win 2013, options [nop,nop,TS val 4109617965 ecr 1395604703], length 0
+14:32:49.044250 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], ack 782, win 77, options [nop,nop,TS val 1395604704 ecr 4109617956], length 0
+14:32:49.044252 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 40214:40302, ack 782, win 77, options [nop,nop,TS val 1395604704 ecr 4109617956], length 88
+14:32:49.044254 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 40302:41061, ack 782, win 77, options [nop,nop,TS val 1395604704 ecr 4109617956], length 759
+14:32:49.044480 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 40302, win 2013, options [nop,nop,TS val 4109617970 ecr 1395604704], length 0
+14:32:49.044480 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 41061, win 2036, options [nop,nop,TS val 4109617970 ecr 1395604704], length 0
+14:32:49.044972 IP 192.0.73.2.https > OPNsense.localdomain.53169: Flags [.], ack 134, win 67, length 0
+14:32:49.046143 IP 192.0.73.2.https > OPNsense.localdomain.53169: Flags [P.], seq 1:87, ack 134, win 67, length 86
+14:32:49.046396 IP OPNsense.localdomain.53169 > 192.0.73.2.https: Flags [.], ack 87, win 501, length 0
+14:32:49.049422 IP 192.0.73.2.https > OPNsense.localdomain.53169: Flags [P.], seq 87:127, ack 245, win 67, length 40
+14:32:49.049675 IP OPNsense.localdomain.53169 > 192.0.73.2.https: Flags [.], ack 127, win 501, length 0
+14:32:49.065210 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 1:487, ack 134, win 69, length 486
+14:32:49.065482 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 487, win 501, length 0
+14:32:49.115263 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 782:901, ack 41061, win 2036, options [nop,nop,TS val 4109618095 ecr 1395604704], length 119
+14:32:49.121382 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 41061:41150, ack 901, win 77, options [nop,nop,TS val 1395604738 ecr 4109618095], length 89
+14:32:49.121643 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 41150, win 2036, options [nop,nop,TS val 4109618107 ecr 1395604738], length 0
+14:32:49.140855 IP OPNsense.localdomain.23477 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 1990900897:1990901006, ack 2131124114, win 2595, options [nop,nop,TS val 1644590726 ecr 3374632418], length 109
+14:32:49.140912 IP OPNsense.localdomain.12129 > yyz10s03-in-f14.1e100.net.https: Flags [P.], seq 3521234622:3521234717, ack 1835444938, win 501, options [nop,nop,TS val 2475247090 ecr 116695942], length 95
+14:32:49.140965 IP OPNsense.localdomain.30331 > 192.184.69.149.https: Flags [P.], seq 84248203:84248280, ack 3230719954, win 501, options [nop,nop,TS val 1506150701 ecr 3776963193], length 77
+14:32:49.141041 IP OPNsense.localdomain.47216 > a23-39-175-98.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 104826612:104826950, ack 2442694868, win 501, options [nop,nop,TS val 992366895 ecr 1819131934], length 338
+14:32:49.148568 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.23477: Flags [.], ack 109, win 329, options [nop,nop,TS val 3374671217 ecr 1644590726], length 0
+14:32:49.150848 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [.], ack 95, win 253, options [nop,nop,TS val 116734555 ecr 2475247090], length 0
+14:32:49.152050 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [P.], seq 1:82, ack 95, win 253, options [nop,nop,TS val 116734555 ecr 2475247090], length 81
+14:32:49.152415 IP OPNsense.localdomain.12129 > yyz10s03-in-f14.1e100.net.https: Flags [P.], seq 95:134, ack 82, win 501, options [nop,nop,TS val 2475247110 ecr 116734555], length 39
+14:32:49.153243 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 901:1003, ack 41150, win 2036, options [nop,nop,TS val 4109618163 ecr 1395604738], length 102
+14:32:49.153905 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 1003:1045, ack 41150, win 2036, options [nop,nop,TS val 4109618164 ecr 1395604738], length 42
+14:32:49.160888 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], ack 1045, win 77, options [nop,nop,TS val 1395604756 ecr 4109618163], length 0
+14:32:49.161383 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.23477: Flags [P.], seq 1:89, ack 109, win 329, options [nop,nop,TS val 3374671240 ecr 1644590726], length 88
+14:32:49.161394 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.23477: Flags [P.], seq 89:120, ack 109, win 329, options [nop,nop,TS val 3374671240 ecr 1644590726], length 31
+14:32:49.161395 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.23477: Flags [P.], seq 120:159, ack 109, win 329, options [nop,nop,TS val 3374671240 ecr 1644590726], length 39
+14:32:49.161778 IP OPNsense.localdomain.23477 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 159, win 2595, options [nop,nop,TS val 1644590763 ecr 3374671240], length 0
+14:32:49.161778 IP OPNsense.localdomain.23477 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 109:148, ack 159, win 2595, options [nop,nop,TS val 1644590763 ecr 3374671240], length 39
+14:32:49.162337 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [.], ack 134, win 253, options [nop,nop,TS val 116734574 ecr 2475247110], length 0
+14:32:49.165629 IP a23-39-175-98.deploy.static.akamaitechnologies.com.https > OPNsense.localdomain.47216: Flags [P.], seq 1:1188, ack 338, win 275, options [nop,nop,TS val 1819139909 ecr 992366895], length 1187
+14:32:49.165923 IP OPNsense.localdomain.47216 > a23-39-175-98.deploy.static.akamaitechnologies.com.https: Flags [.], ack 1188, win 501, options [nop,nop,TS val 992366939 ecr 1819139909], length 0
+14:32:49.169293 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.23477: Flags [.], ack 148, win 329, options [nop,nop,TS val 3374671256 ecr 1644590763], length 0
+14:32:49.185825 IP 192.184.69.149.https > OPNsense.localdomain.30331: Flags [P.], seq 1:193, ack 77, win 101, options [nop,nop,TS val 3777001725 ecr 1506150701], length 192
+14:32:49.186083 IP OPNsense.localdomain.30331 > 192.184.69.149.https: Flags [.], ack 193, win 501, options [nop,nop,TS val 1506150781 ecr 3777001725], length 0
+14:32:49.227935 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 1045:1167, ack 41150, win 2036, options [nop,nop,TS val 4109618295 ecr 1395604756], length 122
+14:32:49.230008 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 1167:1276, ack 41150, win 2036, options [nop,nop,TS val 4109618299 ecr 1395604756], length 109
+14:32:49.233777 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 41150:41295, ack 1167, win 77, options [nop,nop,TS val 1395604788 ecr 4109618295], length 145
+14:32:49.233791 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [S], seq 337582424, win 64240, options [mss 1460,sackOK,TS val 91940784 ecr 0,nop,wscale 7], length 0
+14:32:49.233908 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 41295, win 2058, options [nop,nop,TS val 4109618306 ecr 1395604788], length 0
+14:32:49.249688 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 41295:41634, ack 1276, win 77, options [nop,nop,TS val 1395604795 ecr 4109618299], length 339
+14:32:49.249959 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 41634, win 2081, options [nop,nop,TS val 4109618334 ecr 1395604795], length 0
+14:32:49.253951 IP stackoverflow.com.https > OPNsense.localdomain.26500: Flags [S.], seq 1073329655, ack 337582425, win 28960, options [mss 1460,sackOK,TS val 2659484904 ecr 91940784,nop,wscale 9], length 0
+14:32:49.254220 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [.], ack 1, win 502, options [nop,nop,TS val 91940820 ecr 2659484904], length 0
+14:32:49.255174 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 91940822 ecr 2659484904], length 517
+14:32:49.268425 IP OPNsense.localdomain.47216 > a23-39-175-98.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 338:962, ack 1188, win 501, options [nop,nop,TS val 992367121 ecr 1819139909], length 624
+14:32:49.275370 IP OPNsense.localdomain.3506 > server-13-226-18-83.ord51.r.cloudfront.net.https: Flags [P.], seq 393565832:393565963, ack 4165911801, win 501, options [nop,nop,TS val 2776661624 ecr 387631935], length 131
+14:32:49.275501 IP stackoverflow.com.https > OPNsense.localdomain.26500: Flags [P.], seq 1:142, ack 518, win 59, options [nop,nop,TS val 2659484941 ecr 91940822], length 141
+14:32:49.275741 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [.], ack 142, win 501, options [nop,nop,TS val 91940858 ecr 2659484941], length 0
+14:32:49.275849 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [P.], seq 518:569, ack 142, win 501, options [nop,nop,TS val 91940858 ecr 2659484941], length 51
+14:32:49.276512 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [P.], seq 569:1284, ack 142, win 501, options [nop,nop,TS val 91940859 ecr 2659484941], length 715
+14:32:49.287084 IP a23-39-175-98.deploy.static.akamaitechnologies.com.https > OPNsense.localdomain.47216: Flags [P.], seq 1188:2057, ack 962, win 286, options [nop,nop,TS val 1819140126 ecr 992367121], length 869
+14:32:49.287370 IP OPNsense.localdomain.47216 > a23-39-175-98.deploy.static.akamaitechnologies.com.https: Flags [.], ack 2057, win 501, options [nop,nop,TS val 992367155 ecr 1819140126], length 0
+14:32:49.290255 IP server-13-226-18-83.ord51.r.cloudfront.net.https > OPNsense.localdomain.3506: Flags [P.], seq 1:321, ack 131, win 130, options [nop,nop,TS val 387635816 ecr 2776661624], length 320
+14:32:49.290494 IP OPNsense.localdomain.3506 > server-13-226-18-83.ord51.r.cloudfront.net.https: Flags [.], ack 321, win 501, options [nop,nop,TS val 2776661650 ecr 387635816], length 0
+14:32:49.293535 IP OPNsense.localdomain.47216 > a23-39-175-98.deploy.static.akamaitechnologies.com.https: Flags [P.], seq 962:1658, ack 2057, win 501, options [nop,nop,TS val 992367166 ecr 1819140126], length 696
+14:32:49.296088 IP OPNsense.localdomain.30331 > 192.184.69.149.https: Flags [P.], seq 77:744, ack 193, win 501, options [nop,nop,TS val 1506150976 ecr 3777001725], length 667
+14:32:49.297458 IP stackoverflow.com.https > OPNsense.localdomain.26500: Flags [.], ack 1284, win 62, options [nop,nop,TS val 2659484979 ecr 91940858], length 0
+14:32:49.297471 IP stackoverflow.com.https > OPNsense.localdomain.26500: Flags [P.], seq 142:354, ack 1284, win 62, options [nop,nop,TS val 2659484979 ecr 91940858], length 212
+14:32:49.297712 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [.], ack 354, win 501, options [nop,nop,TS val 91940897 ecr 2659484979], length 0
+14:32:49.326934 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 1845837973:1845838340, ack 2862370362, win 501, options [nop,nop,TS val 1644591056 ecr 300216366], length 367
+14:32:49.327023 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 367:398, ack 1, win 501, options [nop,nop,TS val 1644591056 ecr 300216366], length 31
+14:32:49.327824 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [P.], seq 1284:1365, ack 354, win 501, options [nop,nop,TS val 91940951 ecr 2659484979], length 81
+14:32:49.327934 IP OPNsense.localdomain.26500 > stackoverflow.com.https: Flags [P.], seq 1365:1417, ack 354, win 501, options [nop,nop,TS val 91940951 ecr 2659484979], length 52
+14:32:49.329177 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 1609722199:1609722299, ack 1445257478, win 501, options [nop,nop,TS val 1644591060 ecr 1875223737], length 100
+14:32:49.329280 IP a23-39-175-98.deploy.static.akamaitechnologies.com.https > OPNsense.localdomain.47216: Flags [P.], seq 2057:2327, ack 1658, win 297, options [nop,nop,TS val 1819140201 ecr 992367166], length 270
+14:32:49.329997 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 100:192, ack 1, win 501, options [nop,nop,TS val 1644591062 ecr 1875223737], length 92
+14:32:49.335976 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 367, win 284, options [nop,nop,TS val 300253625 ecr 1644591056], length 0
+14:32:49.336820 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 398, win 284, options [nop,nop,TS val 300253625 ecr 1644591056], length 0
+14:32:49.339161 IP 192.184.69.149.https > OPNsense.localdomain.30331: Flags [P.], seq 193:547, ack 744, win 111, options [nop,nop,TS val 3777002000 ecr 1506150976], length 354
+14:32:49.339472 IP OPNsense.localdomain.30331 > 192.184.69.149.https: Flags [.], ack 547, win 501, options [nop,nop,TS val 1506151053 ecr 3777002000], length 0
+14:32:49.340312 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [.], ack 100, win 248, options [nop,nop,TS val 1875262472 ecr 1644591060], length 0
+14:32:49.341382 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [.], ack 192, win 248, options [nop,nop,TS val 1875262472 ecr 1644591062], length 0
+14:32:49.347833 IP stackoverflow.com.https > OPNsense.localdomain.26500: Flags [.], ack 1417, win 62, options [nop,nop,TS val 2659485072 ecr 91940951], length 0
+14:32:49.352477 IP OPNsense.localdomain.47216 > a23-39-175-98.deploy.static.akamaitechnologies.com.https: Flags [.], ack 2327, win 501, options [nop,nop,TS val 992367270 ecr 1819140201], length 0
+14:32:49.356612 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [P.], seq 1:69, ack 192, win 248, options [nop,nop,TS val 1875262502 ecr 1644591062], length 68
+14:32:49.356614 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [P.], seq 69:298, ack 192, win 248, options [nop,nop,TS val 1875262502 ecr 1644591062], length 229
+14:32:49.356623 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [P.], seq 298:446, ack 192, win 248, options [nop,nop,TS val 1875262503 ecr 1644591062], length 148
+14:32:49.356625 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [P.], seq 446:485, ack 192, win 248, options [nop,nop,TS val 1875262503 ecr 1644591062], length 39
+14:32:49.356626 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [P.], seq 485:553, ack 192, win 248, options [nop,nop,TS val 1875262503 ecr 1644591062], length 68
+14:32:49.356628 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [P.], seq 553:859, ack 192, win 248, options [nop,nop,TS val 1875262503 ecr 1644591062], length 306
+14:32:49.356630 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [P.], seq 859:1082, ack 192, win 248, options [nop,nop,TS val 1875262504 ecr 1644591062], length 223
+14:32:49.356879 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 69, win 501, options [nop,nop,TS val 1644591109 ecr 1875262502], length 0
+14:32:49.356879 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 298, win 501, options [nop,nop,TS val 1644591109 ecr 1875262502], length 0
+14:32:49.356887 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 446, win 500, options [nop,nop,TS val 1644591109 ecr 1875262503], length 0
+14:32:49.356888 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 485, win 500, options [nop,nop,TS val 1644591109 ecr 1875262503], length 0
+14:32:49.356888 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 553, win 500, options [nop,nop,TS val 1644591109 ecr 1875262503], length 0
+14:32:49.356888 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 859, win 498, options [nop,nop,TS val 1644591109 ecr 1875262503], length 0
+14:32:49.356889 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 1082, win 497, options [nop,nop,TS val 1644591109 ecr 1875262504], length 0
+14:32:49.357005 IP OPNsense.localdomain.16454 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 192:231, ack 1082, win 497, options [nop,nop,TS val 1644591110 ecr 1875262504], length 39
+14:32:49.367513 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.16454: Flags [.], ack 231, win 248, options [nop,nop,TS val 1875262524 ecr 1644591110], length 0
+14:32:49.369417 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 1:70, ack 398, win 284, options [nop,nop,TS val 300253684 ecr 1644591056], length 69
+14:32:49.369419 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 70:143, ack 398, win 284, options [nop,nop,TS val 300253684 ecr 1644591056], length 73
+14:32:49.369420 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 143:174, ack 398, win 284, options [nop,nop,TS val 300253685 ecr 1644591056], length 31
+14:32:49.369422 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 174:213, ack 398, win 284, options [nop,nop,TS val 300253685 ecr 1644591056], length 39
+14:32:49.369834 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 213, win 501, options [nop,nop,TS val 1644591132 ecr 300253684], length 0
+14:32:49.369834 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 398:437, ack 213, win 501, options [nop,nop,TS val 1644591132 ecr 300253684], length 39
+14:32:49.374485 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 437, win 284, options [nop,nop,TS val 300253695 ecr 1644591132], length 0
+14:32:49.377086 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [P.], seq 3943650050:3943650948, ack 4241748092, win 2666, options [nop,nop,TS val 718212425 ecr 4175695399], length 898
+14:32:49.385521 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], ack 898, win 359, options [nop,nop,TS val 4175733648 ecr 718212425], length 0
+14:32:49.472878 IP OPNsense.localdomain.15142 > yyz10s14-in-f1.1e100.net.https: Flags [P.], seq 928847826:928847979, ack 2921154934, win 501, options [nop,nop,TS val 1646730746 ecr 2665479186], length 153
+14:32:49.472898 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [S], seq 2902852834, win 64240, options [mss 1460,sackOK,TS val 1646730746 ecr 0,nop,wscale 7], length 0
+14:32:49.483526 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [.], ack 153, win 252, options [nop,nop,TS val 2665492176 ecr 1646730746], length 0
+14:32:49.484779 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [S.], seq 1518717422, ack 2902852835, win 60192, options [mss 1380,sackOK,TS val 2881271105 ecr 1646730746,nop,wscale 8], length 0
+14:32:49.485048 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 1, win 502, options [nop,nop,TS val 1646730768 ecr 2881271105], length 0
+14:32:49.485715 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 1646730769 ecr 2881271105], length 517
+14:32:49.493971 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [P.], seq 1:94, ack 153, win 252, options [nop,nop,TS val 2665492194 ecr 1646730746], length 93
+14:32:49.493973 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [P.], seq 94:1512, ack 153, win 252, options [nop,nop,TS val 2665492194 ecr 1646730746], length 1418
+14:32:49.493974 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [.], seq 1512:2930, ack 153, win 252, options [nop,nop,TS val 2665492195 ecr 1646730746], length 1418
+14:32:49.493976 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [P.], seq 2930:3142, ack 153, win 252, options [nop,nop,TS val 2665492195 ecr 1646730746], length 212
+14:32:49.493979 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [P.], seq 3142:3173, ack 153, win 252, options [nop,nop,TS val 2665492195 ecr 1646730746], length 31
+14:32:49.493981 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [P.], seq 3173:3212, ack 153, win 252, options [nop,nop,TS val 2665492195 ecr 1646730746], length 39
+14:32:49.494075 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [.], ack 518, win 240, options [nop,nop,TS val 2881271124 ecr 1646730769], length 0
+14:32:49.494212 IP OPNsense.localdomain.15142 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 94, win 501, options [nop,nop,TS val 1646730784 ecr 2665492194], length 0
+14:32:49.494239 IP OPNsense.localdomain.15142 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 1512, win 501, options [nop,nop,TS val 1646730784 ecr 2665492194], length 0
+14:32:49.494239 IP OPNsense.localdomain.15142 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 1512, win 501, options [nop,nop,TS val 1646730784 ecr 2665492194,nop,nop,sack 1 {3142:3173}], length 0
+14:32:49.494289 IP OPNsense.localdomain.15142 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 3173, win 489, options [nop,nop,TS val 1646730784 ecr 2665492195], length 0
+14:32:49.494359 IP OPNsense.localdomain.15142 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 3212, win 489, options [nop,nop,TS val 1646730784 ecr 2665492195], length 0
+14:32:49.494528 IP OPNsense.localdomain.15142 > yyz10s14-in-f1.1e100.net.https: Flags [P.], seq 153:192, ack 3212, win 501, options [nop,nop,TS val 1646730785 ecr 2665492195], length 39
+14:32:49.505040 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.15142: Flags [.], ack 192, win 252, options [nop,nop,TS val 2665492216 ecr 1646730785], length 0
+14:32:49.505953 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [.], seq 1:1419, ack 518, win 240, options [nop,nop,TS val 2881271145 ecr 1646730769], length 1418
+14:32:49.505954 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [.], seq 1419:2837, ack 518, win 240, options [nop,nop,TS val 2881271145 ecr 1646730769], length 1418
+14:32:49.505956 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [P.], seq 2837:2883, ack 518, win 240, options [nop,nop,TS val 2881271145 ecr 1646730769], length 46
+14:32:49.506235 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 1419, win 501, options [nop,nop,TS val 1646730806 ecr 2881271145], length 0
+14:32:49.506385 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 2883, win 494, options [nop,nop,TS val 1646730806 ecr 2881271145], length 0
+14:32:49.508605 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [P.], seq 518:582, ack 2883, win 501, options [nop,nop,TS val 1646730810 ecr 2881271145], length 64
+14:32:49.508807 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [P.], seq 582:769, ack 2883, win 501, options [nop,nop,TS val 1646730810 ecr 2881271145], length 187
+14:32:49.514684 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [P.], seq 2883:2945, ack 769, win 244, options [nop,nop,TS val 2881271162 ecr 1646730810], length 62
+14:32:49.514814 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [P.], seq 2945:2976, ack 769, win 244, options [nop,nop,TS val 2881271162 ecr 1646730810], length 31
+14:32:49.514917 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 2945, win 501, options [nop,nop,TS val 1646730821 ecr 2881271162], length 0
+14:32:49.514917 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 2976, win 501, options [nop,nop,TS val 1646730821 ecr 2881271162], length 0
+14:32:49.514983 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [P.], seq 769:793, ack 2976, win 501, options [nop,nop,TS val 1646730821 ecr 2881271162], length 24
+14:32:49.514983 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [F.], seq 793, ack 2976, win 501, options [nop,nop,TS val 1646730821 ecr 2881271162], length 0
+14:32:49.520948 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [F.], seq 2976, ack 793, win 244, options [nop,nop,TS val 2881271172 ecr 1646730821], length 0
+14:32:49.521203 IP OPNsense.localdomain.59374 > yyz10s14-in-f1.1e100.net.https: Flags [.], ack 2977, win 501, options [nop,nop,TS val 1646730832 ecr 2881271172], length 0
+14:32:49.523933 IP yyz10s14-in-f1.1e100.net.https > OPNsense.localdomain.59374: Flags [.], ack 794, win 244, options [nop,nop,TS val 2881271177 ecr 1646730821], length 0
+14:32:49.584292 IP OPNsense.localdomain.12129 > yyz10s03-in-f14.1e100.net.https: Flags [P.], seq 134:228, ack 82, win 501, options [nop,nop,TS val 2475247877 ecr 116734574], length 94
+14:32:49.584322 IP OPNsense.localdomain.12129 > yyz10s03-in-f14.1e100.net.https: Flags [P.], seq 228:848, ack 82, win 501, options [nop,nop,TS val 2475247877 ecr 116734574], length 620
+14:32:49.588078 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [.], ack 228, win 253, options [nop,nop,TS val 116735333 ecr 2475247877], length 0
+14:32:49.588080 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [.], ack 848, win 257, options [nop,nop,TS val 116735333 ecr 2475247877], length 0
+14:32:49.600753 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [P.], seq 82:161, ack 848, win 257, options [nop,nop,TS val 116735355 ecr 2475247877], length 79
+14:32:49.600755 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [P.], seq 161:227, ack 848, win 257, options [nop,nop,TS val 116735356 ecr 2475247877], length 66
+14:32:49.600756 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [P.], seq 227:258, ack 848, win 257, options [nop,nop,TS val 116735356 ecr 2475247877], length 31
+14:32:49.600758 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [P.], seq 258:297, ack 848, win 257, options [nop,nop,TS val 116735356 ecr 2475247877], length 39
+14:32:49.601261 IP OPNsense.localdomain.12129 > yyz10s03-in-f14.1e100.net.https: Flags [.], ack 297, win 501, options [nop,nop,TS val 2475247907 ecr 116735355], length 0
+14:32:49.601261 IP OPNsense.localdomain.12129 > yyz10s03-in-f14.1e100.net.https: Flags [P.], seq 848:887, ack 297, win 501, options [nop,nop,TS val 2475247907 ecr 116735355], length 39
+14:32:49.611042 IP yyz10s03-in-f14.1e100.net.https > OPNsense.localdomain.12129: Flags [.], ack 887, win 257, options [nop,nop,TS val 116735374 ecr 2475247907], length 0
+14:32:49.981214 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 1:186, ack 898, win 359, options [nop,nop,TS val 4175734708 ecr 718212425], length 185
+14:32:49.981259 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 186:1604, ack 898, win 359, options [nop,nop,TS val 4175734708 ecr 718212425], length 1418
+14:32:49.981329 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], seq 1604:3022, ack 898, win 359, options [nop,nop,TS val 4175734708 ecr 718212425], length 1418
+14:32:49.981331 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], seq 3022:4440, ack 898, win 359, options [nop,nop,TS val 4175734708 ecr 718212425], length 1418
+14:32:49.981400 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 4440:5698, ack 898, win 359, options [nop,nop,TS val 4175734708 ecr 718212425], length 1258
+14:32:49.981471 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 5698:5729, ack 898, win 359, options [nop,nop,TS val 4175734708 ecr 718212425], length 31
+14:32:49.981473 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 5729:5768, ack 898, win 359, options [nop,nop,TS val 4175734708 ecr 718212425], length 39
+14:32:49.981519 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [.], ack 1604, win 2659, options [nop,nop,TS val 718213499 ecr 4175734708], length 0
+14:32:49.981734 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [.], ack 3022, win 2648, options [nop,nop,TS val 718213499 ecr 4175734708,nop,nop,sack 1 {5698:5729}], length 0
+14:32:49.981735 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [.], ack 3022, win 2665, options [nop,nop,TS val 718213499 ecr 4175734708,nop,nop,sack 1 {5698:5768}], length 0
+14:32:49.981746 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [.], ack 5768, win 2650, options [nop,nop,TS val 718213499 ecr 4175734708], length 0
+14:32:49.981843 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [P.], seq 898:937, ack 5768, win 2666, options [nop,nop,TS val 718213499 ecr 4175734708], length 39
+14:32:49.990631 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], ack 937, win 359, options [nop,nop,TS val 4175734724 ecr 718213499], length 0
+14:32:50.034056 IP OPNsense.localdomain.29653 > yyz12s06-in-f4.1e100.net.https: Flags [P.], seq 3489566382:3489566759, ack 859639335, win 501, options [nop,nop,TS val 3509437705 ecr 1980581808], length 377
+14:32:50.034729 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 1276:1432, ack 41634, win 2081, options [nop,nop,TS val 4109619728 ecr 1395604795], length 156
+14:32:50.036757 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 437:536, ack 213, win 501, options [nop,nop,TS val 1644592317 ecr 300253695], length 99
+14:32:50.043174 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 536, win 284, options [nop,nop,TS val 300254883 ecr 1644592317], length 0
+14:32:50.046567 IP yyz12s06-in-f4.1e100.net.https > OPNsense.localdomain.29653: Flags [.], ack 377, win 266, options [nop,nop,TS val 1980593790 ecr 3509437705], length 0
+14:32:50.058499 IP yyz12s06-in-f4.1e100.net.https > OPNsense.localdomain.29653: Flags [P.], seq 1:398, ack 377, win 266, options [nop,nop,TS val 1980593809 ecr 3509437705], length 397
+14:32:50.058510 IP yyz12s06-in-f4.1e100.net.https > OPNsense.localdomain.29653: Flags [P.], seq 398:429, ack 377, win 266, options [nop,nop,TS val 1980593809 ecr 3509437705], length 31
+14:32:50.058511 IP yyz12s06-in-f4.1e100.net.https > OPNsense.localdomain.29653: Flags [P.], seq 429:468, ack 377, win 266, options [nop,nop,TS val 1980593809 ecr 3509437705], length 39
+14:32:50.058761 IP OPNsense.localdomain.29653 > yyz12s06-in-f4.1e100.net.https: Flags [.], ack 398, win 501, options [nop,nop,TS val 3509437749 ecr 1980593809], length 0
+14:32:50.058761 IP OPNsense.localdomain.29653 > yyz12s06-in-f4.1e100.net.https: Flags [.], ack 429, win 501, options [nop,nop,TS val 3509437749 ecr 1980593809], length 0
+14:32:50.058772 IP OPNsense.localdomain.29653 > yyz12s06-in-f4.1e100.net.https: Flags [.], ack 468, win 501, options [nop,nop,TS val 3509437749 ecr 1980593809], length 0
+14:32:50.058875 IP OPNsense.localdomain.29653 > yyz12s06-in-f4.1e100.net.https: Flags [P.], seq 377:416, ack 468, win 501, options [nop,nop,TS val 3509437749 ecr 1980593809], length 39
+14:32:50.063140 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 213:286, ack 536, win 284, options [nop,nop,TS val 300254918 ecr 1644592317], length 73
+14:32:50.063185 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 286:1704, ack 536, win 284, options [nop,nop,TS val 300254918 ecr 1644592317], length 1418
+14:32:50.063378 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], ack 1432, win 79, options [nop,nop,TS val 1395605157 ecr 4109619728], length 0
+14:32:50.063379 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], seq 1704:3122, ack 536, win 284, options [nop,nop,TS val 300254919 ecr 1644592317], length 1418
+14:32:50.063381 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 3122:4540, ack 536, win 284, options [nop,nop,TS val 300254919 ecr 1644592317], length 1418
+14:32:50.063482 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 1704, win 501, options [nop,nop,TS val 1644592364 ecr 300254918], length 0
+14:32:50.063700 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 4540, win 496, options [nop,nop,TS val 1644592365 ecr 300254919], length 0
+14:32:50.063983 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], seq 4540:5958, ack 536, win 284, options [nop,nop,TS val 300254920 ecr 1644592317], length 1418
+14:32:50.063985 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 5958:7091, ack 536, win 284, options [nop,nop,TS val 300254920 ecr 1644592317], length 1133
+14:32:50.064126 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [P.], seq 207524446:207524526, ack 3348051383, win 1762, options [nop,nop,TS val 293067448 ecr 112200644], length 80
+14:32:50.064251 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [P.], seq 937:1391, ack 5768, win 2666, options [nop,nop,TS val 718213646 ecr 4175734724], length 454
+14:32:50.064252 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 7091, win 496, options [nop,nop,TS val 1644592366 ecr 300254920], length 0
+14:32:50.064367 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 7091:7130, ack 536, win 284, options [nop,nop,TS val 300254920 ecr 1644592317], length 39
+14:32:50.064632 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 536:575, ack 7130, win 501, options [nop,nop,TS val 1644592366 ecr 300254920], length 39
+14:32:50.067793 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 41634:42914, ack 1432, win 79, options [nop,nop,TS val 1395605158 ecr 4109619728], length 1280
+14:32:50.067886 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 42914:44362, ack 1432, win 79, options [nop,nop,TS val 1395605159 ecr 4109619728], length 1448
+14:32:50.067888 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 44362:45810, ack 1432, win 79, options [nop,nop,TS val 1395605159 ecr 4109619728], length 1448
+14:32:50.067957 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 45810:47258, ack 1432, win 79, options [nop,nop,TS val 1395605159 ecr 4109619728], length 1448
+14:32:50.068027 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 47258:48706, ack 1432, win 79, options [nop,nop,TS val 1395605159 ecr 4109619728], length 1448
+14:32:50.068058 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 42914, win 2104, options [nop,nop,TS val 4109619787 ecr 1395605158], length 0
+14:32:50.068098 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], seq 48706:50154, ack 1432, win 79, options [nop,nop,TS val 1395605159 ecr 4109619728], length 1448
+14:32:50.068099 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 50154:50409, ack 1432, win 79, options [nop,nop,TS val 1395605159 ecr 4109619728], length 255
+14:32:50.068178 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 45810, win 2149, options [nop,nop,TS val 4109619788 ecr 1395605159], length 0
+14:32:50.068317 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 48706, win 2194, options [nop,nop,TS val 4109619788 ecr 1395605159], length 0
+14:32:50.068477 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 50409, win 2221, options [nop,nop,TS val 4109619788 ecr 1395605159], length 0
+14:32:50.068968 IP yyz12s06-in-f4.1e100.net.https > OPNsense.localdomain.29653: Flags [.], ack 416, win 266, options [nop,nop,TS val 1980593831 ecr 3509437749], length 0
+14:32:50.073599 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], ack 80, win 265, options [nop,nop,TS val 112240115 ecr 293067448], length 0
+14:32:50.074754 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [P.], seq 1:129, ack 80, win 265, options [nop,nop,TS val 112240116 ecr 293067448], length 128
+14:32:50.074813 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], ack 1391, win 369, options [nop,nop,TS val 4175734874 ecr 718213646], length 0
+14:32:50.076753 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [P.], seq 129:1547, ack 80, win 265, options [nop,nop,TS val 112240116 ecr 293067448], length 1418
+14:32:50.076755 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 575, win 284, options [nop,nop,TS val 300254943 ecr 1644592366], length 0
+14:32:50.076838 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 1547:2965, ack 80, win 265, options [nop,nop,TS val 112240116 ecr 293067448], length 1418
+14:32:50.076908 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [P.], seq 2965:4383, ack 80, win 265, options [nop,nop,TS val 112240116 ecr 293067448], length 1418
+14:32:50.076978 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 4383:5801, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077009 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 1547, win 1807, options [nop,nop,TS val 293067471 ecr 112240116], length 0
+14:32:50.077049 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 5801:7219, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077119 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 7219:8637, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077133 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 4383, win 1852, options [nop,nop,TS val 293067472 ecr 112240116], length 0
+14:32:50.077189 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [P.], seq 8637:10055, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077260 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 10055:11473, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077280 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 7219, win 1896, options [nop,nop,TS val 293067472 ecr 112240117], length 0
+14:32:50.077400 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 11473:12891, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077402 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 12891:14309, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077408 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 10055, win 1940, options [nop,nop,TS val 293067472 ecr 112240117], length 0
+14:32:50.077471 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 14309:15727, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077541 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 15727:17145, ack 80, win 265, options [nop,nop,TS val 112240117 ecr 293067448], length 1418
+14:32:50.077611 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 17145:18563, ack 80, win 265, options [nop,nop,TS val 112240118 ecr 293067448], length 1418
+14:32:50.077682 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 18563:19981, ack 80, win 265, options [nop,nop,TS val 112240118 ecr 293067448], length 1418
+14:32:50.077690 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 14309, win 2007, options [nop,nop,TS val 293067473 ecr 112240117], length 0
+14:32:50.077752 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 19981:21399, ack 80, win 265, options [nop,nop,TS val 112240118 ecr 293067448], length 1418
+14:32:50.077822 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 21399:22817, ack 80, win 265, options [nop,nop,TS val 112240118 ecr 293067448], length 1418
+14:32:50.077830 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 17145, win 2052, options [nop,nop,TS val 293067473 ecr 112240117], length 0
+14:32:50.077898 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 22817:24235, ack 80, win 265, options [nop,nop,TS val 112240118 ecr 293067448], length 1418
+14:32:50.077964 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 24235:25653, ack 80, win 265, options [nop,nop,TS val 112240119 ecr 293067448], length 1418
+14:32:50.077971 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 19981, win 2096, options [nop,nop,TS val 293067473 ecr 112240118], length 0
+14:32:50.078038 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 25653:27071, ack 80, win 265, options [nop,nop,TS val 112240119 ecr 293067448], length 1418
+14:32:50.078104 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 27071:28489, ack 80, win 265, options [nop,nop,TS val 112240119 ecr 293067448], length 1418
+14:32:50.078121 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 22817, win 2140, options [nop,nop,TS val 293067473 ecr 112240118], length 0
+14:32:50.078175 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 28489:29907, ack 80, win 265, options [nop,nop,TS val 112240119 ecr 293067448], length 1418
+14:32:50.078245 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 29907:31325, ack 80, win 265, options [nop,nop,TS val 112240119 ecr 293067448], length 1418
+14:32:50.078252 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 25653, win 2186, options [nop,nop,TS val 293067474 ecr 112240118], length 0
+14:32:50.078315 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 31325:32743, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 1418
+14:32:50.078386 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 32743:34161, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 1418
+14:32:50.078391 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 29907, win 2252, options [nop,nop,TS val 293067474 ecr 112240119], length 0
+14:32:50.078456 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 34161:35579, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 1418
+14:32:50.078526 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 35579:36997, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 1418
+14:32:50.078530 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 32743, win 2297, options [nop,nop,TS val 293067474 ecr 112240119], length 0
+14:32:50.078597 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 36997:38415, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 1418
+14:32:50.078667 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 38415:39833, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 1418
+14:32:50.078674 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 35579, win 2342, options [nop,nop,TS val 293067474 ecr 112240120], length 0
+14:32:50.078738 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], seq 39833:41251, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 1418
+14:32:50.078747 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [P.], seq 41251:42128, ack 80, win 265, options [nop,nop,TS val 112240120 ecr 293067448], length 877
+14:32:50.078811 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 38415, win 2386, options [nop,nop,TS val 293067475 ecr 112240120], length 0
+14:32:50.078951 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [.], ack 41251, win 2430, options [nop,nop,TS val 293067475 ecr 112240120], length 0
+14:32:50.079189 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [P.], seq 80:119, ack 42128, win 2452, options [nop,nop,TS val 293067475 ecr 112240120], length 39
+14:32:50.089203 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], ack 119, win 265, options [nop,nop,TS val 112240144 ecr 293067475], length 0
+14:32:50.112249 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 5768:5953, ack 1391, win 369, options [nop,nop,TS val 4175734940 ecr 718213646], length 185
+14:32:50.112251 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 5953:5984, ack 1391, win 369, options [nop,nop,TS val 4175734940 ecr 718213646], length 31
+14:32:50.112253 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 5984:6023, ack 1391, win 369, options [nop,nop,TS val 4175734940 ecr 718213646], length 39
+14:32:50.112630 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [.], ack 6023, win 2666, options [nop,nop,TS val 718213731 ecr 4175734940], length 0
+14:32:50.112631 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [P.], seq 1391:1430, ack 6023, win 2666, options [nop,nop,TS val 718213732 ecr 4175734940], length 39
+14:32:50.118738 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], ack 1430, win 369, options [nop,nop,TS val 4175734951 ecr 718213732], length 0
+14:32:50.121713 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 134:213, ack 487, win 501, length 79
+14:32:50.122689 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 213:292, ack 487, win 501, length 79
+14:32:50.123404 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [P.], seq 1432:1791, ack 50409, win 2221, options [nop,nop,TS val 4109619886 ecr 1395605159], length 359
+14:32:50.127572 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 292:373, ack 487, win 501, length 81
+14:32:50.127762 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 373:506, ack 487, win 501, length 133
+14:32:50.128441 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 506:640, ack 487, win 501, length 134
+14:32:50.128552 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 640:720, ack 487, win 501, length 80
+14:32:50.129067 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [P.], seq 720:853, ack 487, win 501, length 133
+14:32:50.131395 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [.], ack 1791, win 81, options [nop,nop,TS val 1395605187 ecr 4109619886], length 0
+14:32:50.140940 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [P.], seq 1430:1886, ack 6023, win 2666, options [nop,nop,TS val 718213782 ecr 4175734951], length 456
+14:32:50.141150 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [.], ack 292, win 69, length 0
+14:32:50.143970 IP 151.101.1.69.https > OPNsense.localdomain.42027: Flags [P.], seq 50409:50618, ack 1791, win 81, options [nop,nop,TS val 1395605192 ecr 4109619886], length 209
+14:32:50.144223 IP OPNsense.localdomain.42027 > 151.101.1.69.https: Flags [.], ack 50618, win 2243, options [nop,nop,TS val 4109619923 ecr 1395605192], length 0
+14:32:50.145205 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 487:1885, ack 292, win 69, length 1398
+14:32:50.145207 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 1885:2704, ack 292, win 69, length 819
+14:32:50.145208 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 2704:2742, ack 292, win 69, length 38
+14:32:50.145210 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [.], ack 853, win 72, length 0
+14:32:50.145515 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 1885, win 501, length 0
+14:32:50.145520 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 2742:3522, ack 853, win 72, length 780
+14:32:50.145521 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 3522:3560, ack 853, win 72, length 38
+14:32:50.145588 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 2704, win 496, length 0
+14:32:50.145588 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 2742, win 496, length 0
+14:32:50.145769 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 3522, win 501, length 0
+14:32:50.145769 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 3560, win 501, length 0
+14:32:50.148860 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 3560:4433, ack 853, win 72, length 873
+14:32:50.148862 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 4433:4471, ack 853, win 72, length 38
+14:32:50.149018 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 4471:5281, ack 853, win 72, length 810
+14:32:50.149020 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 5281:5319, ack 853, win 72, length 38
+14:32:50.149105 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 4433, win 501, length 0
+14:32:50.149158 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 4471, win 501, length 0
+14:32:50.149230 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 5319:5421, ack 853, win 72, length 102
+14:32:50.149232 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 5421:5522, ack 853, win 72, length 101
+14:32:50.149252 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 5281, win 496, length 0
+14:32:50.149299 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 5319, win 496, length 0
+14:32:50.149402 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 5421, win 496, length 0
+14:32:50.149402 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 5522, win 496, length 0
+14:32:50.149623 IP 104.16.25.34.https > OPNsense.localdomain.26040: Flags [P.], seq 5522:5702, ack 853, win 72, length 180
+14:32:50.149872 IP OPNsense.localdomain.26040 > 104.16.25.34.https: Flags [.], ack 5702, win 501, length 0
+14:32:50.150387 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], ack 1886, win 378, options [nop,nop,TS val 4175735008 ecr 718213782], length 0
+14:32:50.186039 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 6023:6185, ack 1886, win 378, options [nop,nop,TS val 4175735071 ecr 718213782], length 162
+14:32:50.186769 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 6185:6216, ack 1886, win 378, options [nop,nop,TS val 4175735073 ecr 718213782], length 31
+14:32:50.186771 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [P.], seq 6216:6255, ack 1886, win 378, options [nop,nop,TS val 4175735073 ecr 718213782], length 39
+14:32:50.187074 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [.], ack 6255, win 2666, options [nop,nop,TS val 718213864 ecr 4175735071], length 0
+14:32:50.187074 IP OPNsense.localdomain.60100 > yyz12s04-in-f2.1e100.net.https: Flags [P.], seq 1886:1925, ack 6255, win 2666, options [nop,nop,TS val 718213864 ecr 4175735071], length 39
+14:32:50.191387 IP yyz12s04-in-f2.1e100.net.https > OPNsense.localdomain.60100: Flags [.], ack 1925, win 378, options [nop,nop,TS val 4175735081 ecr 718213864], length 0
+14:32:50.197825 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [P.], seq 119:191, ack 42128, win 2452, options [nop,nop,TS val 293067686 ecr 112240144], length 72
+14:32:50.197935 IP OPNsense.localdomain.26430 > yyz12s06-in-f1.1e100.net.https: Flags [P.], seq 191:226, ack 42128, win 2452, options [nop,nop,TS val 293067686 ecr 112240144], length 35
+14:32:50.204072 IP yyz12s06-in-f1.1e100.net.https > OPNsense.localdomain.26430: Flags [.], ack 226, win 265, options [nop,nop,TS val 112240349 ecr 293067686], length 0
+14:32:50.248422 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 575:675, ack 7130, win 501, options [nop,nop,TS val 1644592693 ecr 300254943], length 100
+14:32:50.248764 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 675:710, ack 7130, win 501, options [nop,nop,TS val 1644592693 ecr 300254943], length 35
+14:32:50.253711 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 675, win 284, options [nop,nop,TS val 300255256 ecr 1644592693], length 0
+14:32:50.253714 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 7130:7206, ack 675, win 284, options [nop,nop,TS val 300255257 ecr 1644592693], length 76
+14:32:50.253716 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 7206:8624, ack 675, win 284, options [nop,nop,TS val 300255257 ecr 1644592693], length 1418
+14:32:50.253855 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], seq 8624:10042, ack 675, win 284, options [nop,nop,TS val 300255257 ecr 1644592693], length 1418
+14:32:50.253911 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 8624, win 501, options [nop,nop,TS val 1644592702 ecr 300255257], length 0
+14:32:50.253996 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 10042:11460, ack 675, win 284, options [nop,nop,TS val 300255257 ecr 1644592693], length 1418
+14:32:50.254285 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 11460, win 501, options [nop,nop,TS val 1644592703 ecr 300255257], length 0
+14:32:50.254363 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], seq 11460:12878, ack 675, win 284, options [nop,nop,TS val 300255258 ecr 1644592693], length 1418
+14:32:50.254365 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 12878:13263, ack 675, win 284, options [nop,nop,TS val 300255258 ecr 1644592693], length 385
+14:32:50.254644 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13263:13302, ack 675, win 284, options [nop,nop,TS val 300255258 ecr 1644592693], length 39
+14:32:50.254672 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 13263, win 496, options [nop,nop,TS val 1644592704 ecr 300255258], length 0
+14:32:50.254893 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 710:749, ack 13302, win 501, options [nop,nop,TS val 1644592704 ecr 300255258], length 39
+14:32:50.259261 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 710, win 284, options [nop,nop,TS val 300255267 ecr 1644592693], length 0
+14:32:50.262232 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 749, win 284, options [nop,nop,TS val 300255272 ecr 1644592704], length 0
+14:32:50.357776 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 749:1642, ack 13302, win 501, options [nop,nop,TS val 1644592887 ecr 300255272], length 893
+14:32:50.364570 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 1642, win 293, options [nop,nop,TS val 300255453 ecr 1644592887], length 0
+14:32:50.399466 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13302:13370, ack 1642, win 293, options [nop,nop,TS val 300255515 ecr 1644592887], length 68
+14:32:50.399885 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13370:13401, ack 1642, win 293, options [nop,nop,TS val 300255516 ecr 1644592887], length 31
+14:32:50.399887 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13401:13440, ack 1642, win 293, options [nop,nop,TS val 300255516 ecr 1644592887], length 39
+14:32:50.400201 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 13440, win 501, options [nop,nop,TS val 1644592962 ecr 300255515], length 0
+14:32:50.400201 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 1642:1681, ack 13440, win 501, options [nop,nop,TS val 1644592962 ecr 300255515], length 39
+14:32:50.406376 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 1681, win 293, options [nop,nop,TS val 300255528 ecr 1644592962], length 0
+14:32:50.709004 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 1681:1993, ack 13440, win 501, options [nop,nop,TS val 1644593511 ecr 300255528], length 312
+14:32:50.714640 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 1993, win 302, options [nop,nop,TS val 300256075 ecr 1644593511], length 0
+14:32:50.749079 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13440:13509, ack 1993, win 302, options [nop,nop,TS val 300256137 ecr 1644593511], length 69
+14:32:50.749082 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13509:13582, ack 1993, win 302, options [nop,nop,TS val 300256137 ecr 1644593511], length 73
+14:32:50.749400 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 13582, win 501, options [nop,nop,TS val 1644593582 ecr 300256137], length 0
+14:32:50.749781 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13582:13613, ack 1993, win 302, options [nop,nop,TS val 300256138 ecr 1644593511], length 31
+14:32:50.749783 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [P.], seq 13613:13652, ack 1993, win 302, options [nop,nop,TS val 300256138 ecr 1644593511], length 39
+14:32:50.750070 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [.], ack 13652, win 501, options [nop,nop,TS val 1644593584 ecr 300256138], length 0
+14:32:50.750070 IP OPNsense.localdomain.50047 > yyz10s04-in-f2.1e100.net.https: Flags [P.], seq 1993:2032, ack 13652, win 501, options [nop,nop,TS val 1644593584 ecr 300256138], length 39
+14:32:50.757301 IP yyz10s04-in-f2.1e100.net.https > OPNsense.localdomain.50047: Flags [.], ack 2032, win 302, options [nop,nop,TS val 300256151 ecr 1644593584], length 0
+14:32:51.393744 IP OPNsense.localdomain.25284 > 172.217.197.189.https: Flags [P.], seq 2555148514:2555148553, ack 2501399138, win 501, options [nop,nop,TS val 120676355 ecr 4244095564], length 39
+14:32:51.421529 IP 172.217.197.189.https > OPNsense.localdomain.25284: Flags [P.], seq 1:40, ack 39, win 322, options [nop,nop,TS val 4244154338 ecr 120676355], length 39
+14:32:51.421826 IP OPNsense.localdomain.25284 > 172.217.197.189.https: Flags [.], ack 40, win 501, options [nop,nop,TS val 120676405 ecr 4244154338], length 0
+

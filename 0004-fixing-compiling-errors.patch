@@ -1,0 +1,24 @@
+From 9f94410da1ecd148598c4ed7d19f7538c4071178 Mon Sep 17 00:00:00 2001
+From: Charlie Root <root@jdfbsd12.multipass>
+Date: Sun, 13 Sep 2020 21:02:00 -0400
+Subject: [PATCH 4/5] fixing compiling errors
+
+---
+ sys/net/if_var.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/sys/net/if_var.h b/sys/net/if_var.h
+index 965851a01..8f01e9e86 100644
+--- a/sys/net/if_var.h
++++ b/sys/net/if_var.h
+@@ -685,6 +685,7 @@ void	if_inc_counter(struct ifnet *, ift_counter, int64_t);
+ #define IF_LLADDR(ifp)							\
+     LLADDR((struct sockaddr_dl *)((ifp)->if_addr->ifa_addr))
+ 
++struct sockaddr_dl;
+ typedef u_int iflladdr_cb_t(void *, struct sockaddr_dl *, u_int);
+ u_int if_foreach_lladdr(if_t, iflladdr_cb_t, void *);
+ 
+-- 
+2.27.0
+

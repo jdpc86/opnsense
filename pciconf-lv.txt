@@ -1,0 +1,76 @@
+root@jdpcsense:/var/run # pciconf -lv
+hostb0@pci0:0:0:0:	class=0x060000 card=0x06b21028 chip=0x19048086 rev=0x08 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers'
+    class      = bridge
+    subclass   = HOST-PCI
+vgapci0@pci0:0:2:0:	class=0x030000 card=0x06b21028 chip=0x19168086 rev=0x07 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Skylake GT2 [HD Graphics 520]'
+    class      = display
+    subclass   = VGA
+xhci0@pci0:0:20:0:	class=0x0c0330 card=0x06b21028 chip=0x9d2f8086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP USB 3.0 xHCI Controller'
+    class      = serial bus
+    subclass   = USB
+none0@pci0:0:20:2:	class=0x118000 card=0x06b21028 chip=0x9d318086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP Thermal subsystem'
+    class      = dasp
+none1@pci0:0:21:0:	class=0x118000 card=0x06b21028 chip=0x9d608086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP Serial IO I2C Controller'
+    class      = dasp
+none2@pci0:0:21:1:	class=0x118000 card=0x06b21028 chip=0x9d618086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP Serial IO I2C Controller'
+    class      = dasp
+none3@pci0:0:22:0:	class=0x078000 card=0x00000000 chip=0x9d3a8086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP CSME HECI'
+    class      = simple comms
+ahci0@pci0:0:23:0:	class=0x010601 card=0x06b21028 chip=0x9d038086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP SATA Controller [AHCI mode]'
+    class      = mass storage
+    subclass   = SATA
+pcib1@pci0:0:28:0:	class=0x060400 card=0x06b21028 chip=0x9d148086 rev=0xf1 hdr=0x01
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP PCI Express Root Port'
+    class      = bridge
+    subclass   = PCI-PCI
+pcib2@pci0:0:28:5:	class=0x060400 card=0x06b21028 chip=0x9d158086 rev=0xf1 hdr=0x01
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP PCI Express Root Port'
+    class      = bridge
+    subclass   = PCI-PCI
+isab0@pci0:0:31:0:	class=0x060100 card=0x06b21028 chip=0x9d488086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP LPC Controller'
+    class      = bridge
+    subclass   = PCI-ISA
+none4@pci0:0:31:2:	class=0x058000 card=0x06b21028 chip=0x9d218086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP PMC'
+    class      = memory
+hdac0@pci0:0:31:3:	class=0x040300 card=0x06b21028 chip=0x9d708086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP HD Audio'
+    class      = multimedia
+    subclass   = HDA
+none5@pci0:0:31:4:	class=0x0c0500 card=0x06b21028 chip=0x9d238086 rev=0x21 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Sunrise Point-LP SMBus'
+    class      = serial bus
+    subclass   = SMBus
+none6@pci0:1:0:0:	class=0x028000 card=0x84708086 chip=0x08b38086 rev=0x83 hdr=0x00
+    vendor     = 'Intel Corporation'
+    device     = 'Wireless 3160'
+    class      = network
+re0@pci0:2:0:0:	class=0x020000 card=0x06b21028 chip=0x813610ec rev=0x07 hdr=0x00
+    vendor     = 'Realtek Semiconductor Co., Ltd.'
+    device     = 'RTL810xE PCI Express Fast Ethernet controller'
+    class      = network
+    subclass   = ethernet
+

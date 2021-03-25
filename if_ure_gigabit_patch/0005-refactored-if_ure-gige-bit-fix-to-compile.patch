@@ -1,0 +1,100 @@
+From 0288dcc6f3ee8b01b6a9ceb9d6ae3606c9fa4e90 Mon Sep 17 00:00:00 2001
+From: Charlie Root <root@jdfbsd12.multipass>
+Date: Mon, 14 Sep 2020 11:46:29 -0400
+Subject: [PATCH 5/5] refactored if_ure gige bit fix to compile
+
+---
+ sys/dev/usb/net/if_ure.c |  4 ++++
+ sys/net/ethernet.h       |  4 ----
+ sys/net/if.c             | 26 ++++++++++++++++++++++++--
+ sys/net/if_var.h         |  1 +
+ 4 files changed, 29 insertions(+), 6 deletions(-)
+
+diff --git a/sys/dev/usb/net/if_ure.c b/sys/dev/usb/net/if_ure.c
+index 4d049d4ed..f615b8d99 100644
+--- a/sys/dev/usb/net/if_ure.c
++++ b/sys/dev/usb/net/if_ure.c
+@@ -90,6 +90,10 @@ SYSCTL_INT(_hw_usb_ure, OID_AUTO, debug, CTLFLAG_RWTUN, &ure_debug, 0,
+ #endif
+ #endif
+ 
++#define	ETHER_IS_ZERO(addr) \
++	(((addr)[0] | (addr)[1] | (addr)[2] | \
++	  (addr)[3] | (addr)[4] | (addr)[5]) == 0x00)
++	  
+ /*
+  * Various supported device vendors/products.
+  */
+diff --git a/sys/net/ethernet.h b/sys/net/ethernet.h
+index 204328fdf..0753e31d3 100644
+--- a/sys/net/ethernet.h
++++ b/sys/net/ethernet.h
+@@ -75,10 +75,6 @@ struct ether_addr {
+ 	(((addr)[0] & (addr)[1] & (addr)[2] & \
+ 	  (addr)[3] & (addr)[4] & (addr)[5]) == 0xff)
+ 
+-#define	ETHER_IS_ZERO(addr) \
+-	(((addr)[0] | (addr)[1] | (addr)[2] | \
+-	  (addr)[3] | (addr)[4] | (addr)[5]) == 0x00)
+-	  
+ /*
+  * 802.1q Virtual LAN header.
+  */
+diff --git a/sys/net/if.c b/sys/net/if.c
+index eb807b8ae..5d33eace9 100644
+--- a/sys/net/if.c
++++ b/sys/net/if.c
+@@ -4647,14 +4647,36 @@ if_foreach_lladdr(if_t ifp, iflladdr_cb_t cb, void *cb_arg)
+ 	MPASS(cb);
+ 
+ 	count = 0;
+-	NET_EPOCH_ENTER(et);
++	NET_EPOCH_ENTER_ET(et);
+ 	CK_STAILQ_FOREACH(ifa, &ifp->if_addrhead, ifa_link) {
+ 		if (ifa->ifa_addr->sa_family != AF_LINK)
+ 			continue;
+ 		count += (*cb)(cb_arg, (struct sockaddr_dl *)ifa->ifa_addr,
+ 		    count);
+ 	}
+-	NET_EPOCH_EXIT(et);
++	NET_EPOCH_EXIT_ET(et);
++
++	return (count);
++}
++
++u_int
++if_foreach_llmaddr(if_t ifp, iflladdr_cb_t cb, void *cb_arg)
++{
++	struct epoch_tracker et;
++	struct ifmultiaddr *ifma;
++	u_int count;
++
++	MPASS(cb);
++
++	count = 0;
++	NET_EPOCH_ENTER_ET(et);
++	CK_STAILQ_FOREACH(ifma, &ifp->if_multiaddrs, ifma_link) {
++		if (ifma->ifma_addr->sa_family != AF_LINK)
++			continue;
++		count += (*cb)(cb_arg, (struct sockaddr_dl *)ifma->ifma_addr,
++		    count);
++	}
++	NET_EPOCH_EXIT_ET(et);
+ 
+ 	return (count);
+ }
+diff --git a/sys/net/if_var.h b/sys/net/if_var.h
+index 8f01e9e86..74e143010 100644
+--- a/sys/net/if_var.h
++++ b/sys/net/if_var.h
+@@ -688,6 +688,7 @@ void	if_inc_counter(struct ifnet *, ift_counter, int64_t);
+ struct sockaddr_dl;
+ typedef u_int iflladdr_cb_t(void *, struct sockaddr_dl *, u_int);
+ u_int if_foreach_lladdr(if_t, iflladdr_cb_t, void *);
++u_int if_foreach_llmaddr(if_t, iflladdr_cb_t, void *);
+ 
+ uint64_t if_setbaudrate(if_t ifp, uint64_t baudrate);
+ uint64_t if_getbaudrate(if_t ifp);
+-- 
+2.27.0
+

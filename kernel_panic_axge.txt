@@ -1,0 +1,46 @@
+Fatal trap 12: page fault while in kernel mode
+cpuid = 0; apic id = 00
+fault virtual address	= 0x418
+fault code		= supervisor read data, page not present
+instruction pointer	= 0x20:0xffffffff80cb588d
+stack pointer	        = 0x28:0xfffffe004c9032d0
+frame pointer	        = 0x28:0xfffffe004c903350
+code segment		= base 0x0, limit 0xfffff, type 0x1b
+			= DPL 0, pres 1, long 1, def32 0, gran 1
+processor eflags	= interrupt enabled, resume, IOPL = 0
+current process		= 97986 (ifconfig)
+trap number		= 12
+panic: page fault
+cpuid = 0
+time = 1599511911
+__HardenedBSD_version = 1200059 __FreeBSD_version = 1201000
+version = FreeBSD 12.1-RELEASE-p9-HBSD #0  e8da2843e(stable/20.7)-dirty: Mon Sep  7 15:17:30 EDT 2020
+    root@jdfbsd12:/usr/obj/usr/src/amd64.amd64/sys/SMP
+KDB: stack backtrace:
+db_trace_self_wrapper() at db_trace_self_wrapper+0x2b/frame 0xfffffe004c902f80
+vpanic() at vpanic+0x1a2/frame 0xfffffe004c902fd0
+panic() at panic+0x43/frame 0xfffffe004c903030
+trap_fatal() at trap_fatal+0x39c/frame 0xfffffe004c903090
+trap_pfault() at trap_pfault+0x49/frame 0xfffffe004c9030f0
+trap() at trap+0x29f/frame 0xfffffe004c903200
+calltrap() at calltrap+0x8/frame 0xfffffe004c903200
+--- trap 0xc, rip = 0xffffffff80cb588d, rsp = 0xfffffe004c9032d0, rbp = 0xfffffe004c903350 ---
+__mtx_lock_sleep() at __mtx_lock_sleep+0xbd/frame 0xfffffe004c903350
+usbd_do_request_flags() at usbd_do_request_flags+0x8d8/frame 0xfffffe004c9033e0
+usbd_do_request_proc() at usbd_do_request_proc+0x69/frame 0xfffffe004c903440
+axge_miibus_readreg() at axge_miibus_readreg+0xa6/frame 0xfffffe004c9034a0
+rgephy_status() at rgephy_status+0x80/frame 0xfffffe004c9034f0
+rgephy_service() at rgephy_service+0x3e3/frame 0xfffffe004c903550
+mii_pollstat() at mii_pollstat+0x4d/frame 0xfffffe004c903580
+axge_ifmedia_sts() at axge_ifmedia_sts+0x4a/frame 0xfffffe004c9035b0
+ifmedia_ioctl() at ifmedia_ioctl+0x16a/frame 0xfffffe004c9035f0
+ifhwioctl() at ifhwioctl+0x301/frame 0xfffffe004c903670
+ifioctl() at ifioctl+0x49d/frame 0xfffffe004c903730
+kern_ioctl() at kern_ioctl+0x2be/frame 0xfffffe004c9037a0
+sys_ioctl() at sys_ioctl+0x15d/frame 0xfffffe004c903870
+amd64_syscall() at amd64_syscall+0x364/frame 0xfffffe004c9039b0
+fast_syscall_common() at fast_syscall_common+0x101/frame 0xfffffe004c9039b0
+--- syscall (54, FreeBSD ELF64, sys_ioctl), rip = 0x47c675d647a, rsp = 0x7c1c090b9a88, rbp = 0x7c1c090b9b00 ---
+KDB: enter: panic
+panic.txt0600001213725516547  7150 ustarrootwheelpage faultversion.txt06000022313725516547  7627 ustarrootwheelFreeBSD 12.1-RELEASE-p9-HBSD #0  e8da2843e(stable/20.7)-dirty: Mon Sep  7 15:17:30 EDT 2020
+    root@jdfbsd12:/usr/obj/usr/src/amd64.amd64/sys/SMP

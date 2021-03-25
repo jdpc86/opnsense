@@ -1,0 +1,24 @@
+From 99392d08c9f0f38828947a525d9bd3671564404c Mon Sep 17 00:00:00 2001
+From: Charlie Root <root@jdfbsd12.multipass>
+Date: Sun, 13 Sep 2020 19:01:20 -0400
+Subject: [PATCH 1/5] added belkin b2b128 support
+
+---
+ sys/dev/usb/net/if_axge.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/sys/dev/usb/net/if_axge.c b/sys/dev/usb/net/if_axge.c
+index daaf12f9d..40a2487ea 100644
+--- a/sys/dev/usb/net/if_axge.c
++++ b/sys/dev/usb/net/if_axge.c
+@@ -69,6 +69,7 @@ static const STRUCT_USB_HOST_ID axge_devs[] = {
+ #define	AXGE_DEV(v,p) { USB_VP(USB_VENDOR_##v, USB_PRODUCT_##v##_##p) }
+ 	AXGE_DEV(ASIX, AX88178A),
+ 	AXGE_DEV(ASIX, AX88179),
++	AXGE_DEV(BELKIN, B2B128),
+ 	AXGE_DEV(DLINK, DUB1312),
+ 	AXGE_DEV(LENOVO, GIGALAN),
+ 	AXGE_DEV(SITECOMEU, LN032),
+-- 
+2.27.0
+
